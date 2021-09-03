@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="HandheldFriendly" content="true">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Note App</title>
+</head>
+<body onload="checkEdits()">
+	<div class="container">
+		<img src="zz.jpeg" id="img" class="img">
+	<h1>Write your notes here:</h1>
+	<p>Create, save and edit your notes here:</p>
+
+	<div class="buttons">
+	<button class="save-button" onclick="newElement()">Save</button>
+	<button class="delete-button" onclick="clearElement()">Clear</button>
+	</div>
+	
+	<div id="myDiv" class="new-note">
+		<textarea id="myInput" placeholder="Write your notes..."></textarea>
+	</div>
+
+	<div class="notespace">
+	<h3>Saved notes</h3>
+	<div id="emptytext"></div>
+	<div id="update"></div>
+	<ul id="saved-notes" contenteditable="true"></ul>
+	<ul id="myNotes" contenteditable="true">
+	</ul>
+	</div>
+	</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
