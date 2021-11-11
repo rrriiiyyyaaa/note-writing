@@ -6,9 +6,6 @@ Here's what a user can do:
 * If nothing is written on the textarea and user clicks on save button, it shows an alert option.
 * User can edit as well as dele the saved notes.
 * User can remove all written text written in textarea by clicking on clear button.
-Here's the issue:
-You'll notice the tick mark on the right side of the note "✓" and still it is editable.
-
 You can check the live demo from here:
 https://rrriiiyyyaaa.github.io/note-writing/
 
